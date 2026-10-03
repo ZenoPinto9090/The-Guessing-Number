@@ -1,0 +1,61 @@
+body {
+text-align: center;
+background: linear-gradient(135deg, #667eea, #764ba2);
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px 20px;
+display: flex;
+margin: 0;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+}
+button:hover{
+    padding: 10px 20px;
+    background-color: greenyellow;
+    font-size: 16px;
+    color: crimson;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s,background-color 0.2s;
+}
+#easyBtn { background-color: lightgreen; }
+#mediumBtn { background-color: orange; }
+#hardBtn { background-color: tomato; }
+#restartBtn{background-color: aqua;}
+#guessBtn{background-color:blanchedalmond;}
+ #message{
+    font-size: 24px;
+    color:brown;
+ }
+#range{
+    font-size: 14px;
+    color:brown;
+}
+#counter{
+    font-size: 18px;
+    color: darkblue;
+}
+#guessbox{
+    padding: 12px;
+    color: black;
+     background-color: antiquewhite;
+     border: 2px solid darkblue;
+}
+#game{
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 50px 70px;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    width: 550px;
+    max-width: 90%;
+}
+@keyframes move {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+h1{
+    color: white;
+text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
