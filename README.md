@@ -75,7 +75,6 @@ Then open `index.html` in your browser (just double-click it).
 
 ## 🗺️ Roadmap
 
-- [ ] Reveal the secret number when the player loses
 - [ ] Press **Enter** to submit a guess
 - [ ] Best score / win streak tracking
 - [ ] Guess history list
